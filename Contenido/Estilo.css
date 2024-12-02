@@ -48,6 +48,8 @@
     height: 120px;
     cursor: pointer;
     transition: transform 0.5s;
+    background: #ffffff7e;
+    border-radius: 58px;
 }
 
 .Logo:hover {
@@ -175,7 +177,7 @@ button {
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #7bff47;
-    background: transparent;
+    background: #7bff474d;
     color: #fff;
     cursor: pointer;
     position: relative;
