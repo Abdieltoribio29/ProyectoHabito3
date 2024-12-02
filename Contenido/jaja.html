@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Gestión del Tiempo</title>
+    <link rel="stylesheet" href="sta.css">
+</head>
+<body class="background-image">
+    <header>
+        <h1>Matriz de Gestión del Tiempo</h1> 
+        <p>Organiza tus actividades según su importancia y urgencia</p> <a href="prueeeeba.html" class="btn-volver">Volver</a>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <input type="text" id="activityInput" placeholder="Agrega una actividad..." />
+            <select id="quadrantSelect">
+                <option value="1">Urgente e Importante (Cuadrante I)</option>
+                <option value="2">Importante pero No Urgente (Cuadrante II)</option>
+                <option value="3">Urgente pero No Importante (Cuadrante III)</option>
+                <option value="4">Ni Urgente ni Importante (Cuadrante IV)</option>
+            </select>
+            <button onclick="addActivity()">Agregar</button>
+        </section>
+
+        <section class="grid-container">
+            <div class="grid-item quadrant1" id="quadrant1">
+                <h2>Cuadrante I</h2>
+                <p>Urgente e Importante</p>
+                <ul id="list1"></ul>
+            </div>
+            <div class="grid-item quadrant2" id="quadrant2">
+                <h2>Cuadrante II</h2>
+                <p>Importante pero No Urgente</p>
+                <ul id="list2"></ul>
+            </div>
+            <div class="grid-item quadrant3" id="quadrant3">
+                <h2>Cuadrante III</h2>
+                <p>Urgente pero No Importante</p>
+                <ul id="list3"></ul>
+            </div>
+            <div class="grid-item quadrant4" id="quadrant4">
+                <h2>Cuadrante IV</h2>
+                <p>Ni Urgente ni Importante</p>
+                <ul id="list4"></ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="stoy.js"></script>
+</body>
+</html>

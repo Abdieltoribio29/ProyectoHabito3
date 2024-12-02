@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hábito 3: Primero lo Primero</title>
+  <link rel="stylesheet" href="prueeeeeeeba.css">
+</head>
+<body>
+  <!-- Barra de Navegación -->
+  <header class="navbar">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#habito3">¿Qué es el Hábito 3?</a></li>
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#historias">Historias</a></li>
+        <li><a href="#blogs-videos-modern">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Secciones -->
+  <main>
+    <!-- Inicio -->
+    <section id="inicio" class="section">
+      <div class="overlay">
+        <h1>Hábito 3: Primero lo Primero</h1>
+        <p>Aprende a priorizar lo importante en tu vida para alcanzar el éxito.</p>
+        <button class="cta-button" onclick="scrollToSection('habito3')">Descubre más</button>
+      </div>
+    </section>
+
+    <!-- ¿Qué es el Hábito 3? -->
+    <section id="habito3" class="section content-section">
+      <h2>Hábito 3: <br> Poner Primero lo Primero</h2>
+      <div class="habito3-container">
+        <!-- Información del Hábito -->
+        <div class="habito3-info">
+          <p>
+            El Hábito 3 trata de priorizar las actividades importantes que están alineadas con tus valores y metas.
+            Consiste en organizar tu vida para concentrarte en lo que realmente importa, dejando de lado
+            distracciones y urgencias innecesarias. Este hábito requiere autodisciplina y un enfoque claro.
+          </p>
+          <button onclick="location.href='Introduccion.html'" class="btn-more-info">Más información</button>
+        </div>
+        <!-- Frases clave -->
+        <div class="habito3-phrases">
+          <div class="phrase-card">"Gestiona tu tiempo, no dejes que te controle."</div>
+          <div class="phrase-card">"Lo importante nunca debe ser desplazado por lo urgente."</div>
+          <div class="phrase-card">"Disciplina es hacer lo que importa, incluso cuando no es fácil."</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Herramientas -->
+    <section id="herramientas" class="section tools-section">
+      <!-- Video de fondo -->
+      <video class="background-video" autoplay muted loop>
+        <source src="videoplayback (8).mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </video>
+    
+      <!-- Contenido principal -->
+      <div class="tools-content">
+        <h2>Herramientas para el Hábito 3</h2>
+        <p>Explora recursos esenciales para gestionar tus prioridades y maximizar tu productividad.</p>
+        
+        <!-- Menú de herramientas -->
+        <div class="tools-menu">
+          <div class="tool-card" onclick="location.href='mensaje.html'">
+            <h3>Mensajes motivadores</h3>
+            <p>Observa algunos mensajes que te puedan ayudar a motivarte.</p>
+          </div>
+          <div class="tool-card" onclick="location.href='jaja.html'">
+            <h3>Matriz de Prioridades</h3>
+            <p>Descubre cómo clasificar tus actividades según su importancia y urgencia.</p>
+          </div>
+          <div class="tool-card" onclick="location.href='Tareas.html'">
+            <h3>Guia del Habito 3</h3>
+            <p>Empieza a priorizar lo importante y a gestionar tu tiempo como nunca antes.</p>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- Historias -->
+    <section id="historias" class="section content-section">
+      <h2 style="padding-left: 30px;">Historias de Éxito<br>
+        <p style="font-size: medium;">Descubre mas sobre personas con exito que aplicaron <br>las leyes del habito 3</p>
+      </h2>
+      
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item">
+            <img src="Propo.webp" alt="Historia 1">
+            <b><h3>Warren Buffett</h3></b>
+            <p>Ejemplo de enfoque: Buffett es conocido por priorizar actividades de alto impacto. Su famosa regla de las 25 cosas, donde identifica 25 objetivos, pero se concentra únicamente en los 5 más importantes, es un claro ejemplo de aplicar este principio.
+              <br>Resultado: Este enfoque le permitió construir una de las mayores fortunas del mundo como inversor y empresario.</p>
+          </div>
+          <div class="carousel-item">
+            <img src="R.jpg" alt="Historia 2">
+            <h3>Bill Gates</h3>
+            <p>Ejemplo de enfoque: Gates ha destacado la importancia de gestionar el tiempo sabiamente. Durante su época en Microsoft, priorizó tareas clave como la innovación tecnológica y, más tarde, como filántropo, ha aplicado este hábito para maximizar el impacto de la Fundación Bill y Melinda Gates.
+              <br>Resultado: Ha tenido éxito tanto en los negocios como en la filantropía global.</p>
+          </div>
+          <div class="carousel-item">
+            <img src="pfp.jpg" alt="Historia 3">
+            <h3>Michelle Obama</h3>
+            <p>Ejemplo de enfoque: Michelle priorizó su tiempo en actividades significativas durante su mandato como Primera Dama, enfocándose en la educación, la salud y el empoderamiento de las mujeres jóvenes.
+              <br>Resultado: Su legado en estas áreas aún resuena en iniciativas globales.</p>
+          </div>
+        </div>
+        <button class="carousel-button prev" onclick="prevSlide()">⬅</button>
+        <button class="carousel-button next" onclick="nextSlide()">➡</button>
+      </div>
+    </section>    
+
+    <!-- Blog -->
+    <section id="blogs-videos-modern" class="section blogs-videos-section">
+      <!-- Contenedor de Blogs -->
+      <div class="blogs-container-modern">
+        <h2>Explora Nuestros Blogs</h2>
+        <div class="blogs-list">
+          <div class="blog-item" onclick="location.href='blog1.html'">
+            <div class="blog-icon">📝</div>
+            <div class="blog-content">
+              <h3>La importancia de priorizar</h3>
+              <p>Descubre cómo el Hábito 3 puede transformar tu productividad.</p>
+            </div>
+          </div>
+          <div class="blog-item" onclick="location.href='blog2.html'">
+            <div class="blog-icon">🔑</div>
+            <div class="blog-content">
+              <h3>Urgente vs. Importante</h3>
+              <p>Aprende a distinguir las actividades esenciales de las distracciones.</p>
+            </div>
+          </div>
+          <div class="blog-item" onclick="location.href='blog3.html'">
+            <div class="blog-icon">⚙️</div>
+            <div class="blog-content">
+              <h3>Autodisciplina en acción</h3>
+              <p>Claves para mantenerte enfocado en lo que importa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Contenedor de Videos -->
+      <div class="videos-container-modern">
+        <h2>Videos sobre el Hábito 3</h2>
+        <div class="videos-grid">
+          <div class="video-item">
+            <video src="videoplayback (4).mp4" allowfullscreen controls></video>
+            <p>¿Qué significa poner primero lo primero?</p>
+          </div>
+          <div class="video-item">
+            <video src="videoplayback (5).mp4" allowfullscreen controls></video>
+            <p>Cómo identificar tus prioridades.</p>
+          </div>
+          <div class="video-item">
+            <video src="WhatsApp Video 2024-12-02 at 12.26.23 AM.mp44" controls></video>
+            <p>Estrategias para evitar distracciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Hábito 3. Originado por Massiel Vergara - Silvana Kamal - Kelvin Chiru - Amilcar Magallon - Omar del Rosario - Manuel Salazar - Ludibeth Jil - Miguel Gil - Francisco Rios.</p>
+  </footer>
+
+  <script src="prb.js"></script>
+</body>
+</html>

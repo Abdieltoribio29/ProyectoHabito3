@@ -1,0 +1,182 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: #333;
+  }
+  
+  /* Encabezado */
+  .header {
+    background: linear-gradient(to right, #333, #00ffcc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .guide-page{
+    position: relative;
+  }
+  
+  /* Contenedor Principal */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff9b;
+  }
+  
+  /* Introducción */
+  .intro-section {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .intro-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .intro-section ul {
+    list-style-type: disc;
+    margin: 15px 0 0 20px;
+  }
+  
+  .intro-section li {
+    margin-bottom: 10px;
+  }
+  /* Video de fondo */
+.background-video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.6);
+  }
+  
+  /* Pasos */
+  .steps-section {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background: #333;
+  }
+  
+
+  .steps-section h2 {
+    color: #00ffcc;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .step {
+    flex: 1 1 calc(33.333% - 20px);
+    background: #333;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step h3 {
+    color: #00ffcc;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    color: #fff;
+  }
+  
+  /* Motivación */
+  .motivation-section {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .motivation-section h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .quote {
+    background: #00ffcc;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* Botón de descarga */
+  .download-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .download-btn {
+    background: #00ffcc;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background: #14b797;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    background: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* Botón de Volver */
+.back-btn {
+    display: inline-block;
+    background: #333;
+    color: #00ffcc;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #00ffcc;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background: #14b797;
+    color: #000000;
+  }
+  
