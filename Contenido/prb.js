@@ -2,6 +2,11 @@
 function scrollToSection(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
   }
+
+  // Cerrar la barra de anuncio
+document.querySelector('.close-btn').addEventListener('click', function () {
+  document.querySelector('.announcement-bar').style.display = 'none';
+});
   
   // Carousel
   let currentSlide = 0;
@@ -59,5 +64,8 @@ function scrollToSection(sectionId) {
 
   const video = document.querySelector('video');
 video.pause(); // Asegúrate de que esté pausado al cargar la página.
+
+
+
 
   
